@@ -1,0 +1,240 @@
+#ifndef VRScroll_PRP_INCLUDED
+#define VRScroll_PRP_INCLUDED
+
+const VRPROPENTRY VRScrollPropertyList[] =
+  {
+    {
+      "Orientation",  /* name */
+      1,      /* create time */
+      1,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Style",  /* edit group */
+      ";Horizontal;Vertical",  /* editHint (enum value) */
+      "VREditEnum",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "StandardSize",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Size",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditBoolean",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_BOOLEAN,
+      1          /* saveable */
+    },
+    {
+      "MinimumValue",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Value",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_WHOLE,
+      1          /* saveable */
+    },
+    {
+      "MaximumValue",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Value",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_WHOLE,
+      1          /* saveable */
+    },
+    {
+      "Value",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Value",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_WHOLE,
+      1          /* saveable */
+    },
+    {
+      "ThumbSize",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Value",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_WHOLE,
+      1          /* saveable */
+    },
+    {
+      "Change",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "LineIncrement",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Value",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_WHOLE,
+      1          /* saveable */
+    },
+    {
+      "PageIncrement",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Value",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_WHOLE,
+      1          /* saveable */
+    },
+    {
+      "Track",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "Caption",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Text",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Click",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "Font",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Text",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditFont",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Visible",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      1,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Style",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditBoolean",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_BOOLEAN,
+      1          /* saveable */
+    },
+    {
+      NULL,       /* name */
+      FALSE,      /* create_time */
+      FALSE,      /* read_only */
+      FALSE,      /* hidden */
+      FALSE,      /* optimizable */
+      NULL,       /* description */
+      NULL,       /* group */
+      NULL,       /* edit_group */
+      NULL,       /* edit_hint */
+      NULL,       /* editRtn */
+      NULL,       /* editGroupCaption */
+      0,          /* type */
+      0           /* isSaveable */
+    }
+  };
+
+const VRMETHENTRY VRScrollMethodList[] =
+  {
+    { "AttachToWindow" }, 
+    { NULL }
+  };
+
+#endif
+

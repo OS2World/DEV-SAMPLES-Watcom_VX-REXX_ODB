@@ -1,0 +1,119 @@
+#ifndef VRMouseBox_PRP_INCLUDED
+#define VRMouseBox_PRP_INCLUDED
+
+const VRPROPENTRY VRMouseBoxPropertyList[] =
+  {
+    {
+      "MouseButton1Down",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "MouseButton2Down",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "MouseButton1Up",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "MouseButton2Up",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "MouseMove",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "Enabled",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      1,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Style",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditBoolean",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_BOOLEAN,
+      1          /* saveable */
+    },
+    {
+      NULL,       /* name */
+      FALSE,      /* create_time */
+      FALSE,      /* read_only */
+      FALSE,      /* hidden */
+      FALSE,      /* optimizable */
+      NULL,       /* description */
+      NULL,       /* group */
+      NULL,       /* edit_group */
+      NULL,       /* edit_hint */
+      NULL,       /* editRtn */
+      NULL,       /* editGroupCaption */
+      0,          /* type */
+      0           /* isSaveable */
+    }
+  };
+
+const VRMETHENTRY VRMouseBoxMethodList[] =
+  {
+    { NULL }
+  };
+
+#endif
+

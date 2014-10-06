@@ -1,0 +1,9 @@
+    vrSet_Orientation, vrGet_Orientation, vrSet_StandardSize, 
+    vrGet_StandardSize, vrSet_MinimumValue, vrGet_MinimumValue, 
+    vrSet_MaximumValue, vrGet_MaximumValue, vrSet_Value, 
+    vrGet_Value, vrSet_ThumbSize, vrGet_ThumbSize, 
+    vrSet_Change, vrGet_Change, vrSet_LineIncrement, 
+    vrGet_LineIncrement, vrSet_PageIncrement, vrGet_PageIncrement, 
+    vrSet_Track, vrGet_Track, vrRXMethod_AttachToWindow, 
+    vrWM_SIZE, vrWM_QUERYDLGCODE, vrVRSCR_GRABFOCUS, 
+    vrWM_HSCROLL, vrWM_VSCROLL;

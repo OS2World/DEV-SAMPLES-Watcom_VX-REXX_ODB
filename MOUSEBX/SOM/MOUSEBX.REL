@@ -1,0 +1,5 @@
+    vrSet_MouseButton1Down, vrGet_MouseButton1Down, vrSet_MouseButton2Down, 
+    vrGet_MouseButton2Down, vrSet_MouseButton1Up, vrGet_MouseButton1Up, 
+    vrSet_MouseButton2Up, vrGet_MouseButton2Up, vrSet_MouseMove, 
+    vrGet_MouseMove, vrWM_BUTTON1DOWN, vrWM_BUTTON2DOWN, 
+    vrWM_BUTTON1UP, vrWM_BUTTON2UP;

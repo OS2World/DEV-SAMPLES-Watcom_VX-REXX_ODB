@@ -1,0 +1,8 @@
+PROPS.obj +
+INITTERM.obj +
+SOMINIT.obj +
+CUSTOM.obj
+CUSTOM.DLL
+CUSTOM.MAP
+vxrexxc.lib som.lib rexx.lib os2386.lib
+..\CUSTOM.DEF

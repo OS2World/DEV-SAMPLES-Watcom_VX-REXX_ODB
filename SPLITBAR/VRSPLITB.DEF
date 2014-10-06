@@ -1,0 +1,10 @@
+; DEF file for VRSPLITB
+library VRSPLITB initinstance terminstance
+data multiple readwrite preload nonshared
+code loadoncall
+protmode
+exports
+    SOMInitModule
+    SOMUninitModule
+    _VXREXX_CALLER_
+    _VRSPLITB_VERSION_INFO_

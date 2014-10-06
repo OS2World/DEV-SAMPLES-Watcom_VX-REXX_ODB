@@ -1,0 +1,8 @@
+PROPS.obj +
+INITTERM.obj +
+SOMINIT.obj +
+SPLITBA.obj
+VRSPLITB.DLL
+VRSPLITB.MAP
+vxrexxc.lib som.lib rexx.lib os2386.lib
+..\VRSPLITB.DEF

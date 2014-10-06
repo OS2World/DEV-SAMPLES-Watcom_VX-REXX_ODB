@@ -1,0 +1,5 @@
+/* Macro executed automatically when VXBROWSE invoked */
+if( stream( '..\clickme.exe', 'c', 'query exists' ) \= '' )then do
+    address cmd 'del ..\clickme.exe'
+end
+exit 0

@@ -1,0 +1,8 @@
+PROPS.obj +
+INITTERM.obj +
+SOMINIT.obj +
+MOUSEBX.obj
+MOUSEBX.DLL
+MOUSEBX.MAP
+vxrexxc.lib rexx.lib som.lib os2386.lib
+..\MOUSEBX.DEF

@@ -1,0 +1,179 @@
+#ifndef VRSplitBar_PRP_INCLUDED
+#define VRSplitBar_PRP_INCLUDED
+
+const VRPROPENTRY VRSplitBarPropertyList[] =
+  {
+    {
+      "Orientation",  /* name */
+      1,      /* create time */
+      1,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Style",  /* edit group */
+      ";Horizontal;Vertical",  /* editHint (enum value) */
+      "VREditEnum",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Height",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      1,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Size",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_DIMENSION,
+      1          /* saveable */
+    },
+    {
+      "StandardSize",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Size",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditBoolean",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_BOOLEAN,
+      1          /* saveable */
+    },
+    {
+      "DrawEnds",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Style",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditBoolean",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_BOOLEAN,
+      1          /* saveable */
+    },
+    {
+      "Mode",  /* name */
+      1,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Style",  /* edit group */
+      ";AutoMove;Manual;Static",  /* editHint (enum value) */
+      "VREditEnum",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Move",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Event",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditEvent",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_EVENT,
+      1          /* saveable */
+    },
+    {
+      "BackColor",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Color",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditColor",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "ForeColor",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Color",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditColor",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Caption",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Text",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Font",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      1,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Text",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditFont",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      NULL,       /* name */
+      FALSE,      /* create_time */
+      FALSE,      /* read_only */
+      FALSE,      /* hidden */
+      FALSE,      /* optimizable */
+      NULL,       /* description */
+      NULL,       /* group */
+      NULL,       /* edit_group */
+      NULL,       /* edit_hint */
+      NULL,       /* editRtn */
+      NULL,       /* editGroupCaption */
+      0,          /* type */
+      0           /* isSaveable */
+    }
+  };
+
+const VRMETHENTRY VRSplitBarMethodList[] =
+  {
+    { NULL }
+  };
+
+#endif
+

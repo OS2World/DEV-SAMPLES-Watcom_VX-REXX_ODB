@@ -1,0 +1,46 @@
+
+The MouseBox Sample
+-------------------
+
+This sample implements the VRMouseBox object, which is a subclass of
+the VRPictureBox class.  It adds the following events to the PictureBox
+object:
+
+         MouseMove
+         Button1Down
+         Button1Up
+         Button2Down
+         Button2Up
+
+In addition, it overrides the following property:
+
+         Enabled
+
+And intercepts the following window messages:
+
+         WM_BUTTON1DOWN
+         WM_BUTTON1UP
+         WM_BUTTON2DOWN
+         WM_BUTTON2UP
+         WM_MOUSEMOVE     (overridden)
+
+Besides showing how to create new event handlers, the source in
+C\MOUSEBX.C shows how to set up VRInfo data.
+
+
+Important Files to Look At
+--------------------------
+
+    SOM\MOUSEBX.CLS -- The class information file used by VXBROWSE
+                       to generated the SOM class file.
+
+    C\MOUSEBX.C  -- The class implementation file.
+
+    C\SOMINIT.C  -- Initialize the SOM environment for this DLL.  This
+                    file is automatically generated and maintained.
+
+    C\PROPS.C    -- Where property tables are defined.  Automatically
+                    generated and maintained.
+
+    C\INITTERM.C -- DLL initialization.  Automatically generated.
+

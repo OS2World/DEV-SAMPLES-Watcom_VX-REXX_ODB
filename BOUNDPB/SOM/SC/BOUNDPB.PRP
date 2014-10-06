@@ -1,0 +1,76 @@
+#ifndef VRBoundPushButton_PRP_INCLUDED
+#define VRBoundPushButton_PRP_INCLUDED
+
+const VRPROPENTRY VRBoundPushButtonPropertyList[] =
+  {
+    {
+      "Query",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Database",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "QueryColumns",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Database",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      "Caption",  /* name */
+      0,      /* create time */
+      0,      /* read only */
+      0,      /* hidden */
+      0,      /* optimizable */
+      NULL,    /* description */
+      NULL,    /* group */
+      "Text",  /* edit group */
+      "",  /* editHint (enum value) */
+      "VREditString",      /* editFunction */
+      NULL,    /* editGroupCaption */
+      VRPROPTYPE_CSTRING,
+      1          /* saveable */
+    },
+    {
+      NULL,       /* name */
+      FALSE,      /* create_time */
+      FALSE,      /* read_only */
+      FALSE,      /* hidden */
+      FALSE,      /* optimizable */
+      NULL,       /* description */
+      NULL,       /* group */
+      NULL,       /* edit_group */
+      NULL,       /* edit_hint */
+      NULL,       /* editRtn */
+      NULL,       /* editGroupCaption */
+      0,          /* type */
+      0           /* isSaveable */
+    }
+  };
+
+const VRMETHENTRY VRBoundPushButtonMethodList[] =
+  {
+    { "DataAvailable" }, 
+    { "DataRequest" }, 
+    { NULL }
+  };
+
+#endif
+

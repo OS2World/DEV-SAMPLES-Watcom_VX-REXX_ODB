@@ -1,0 +1,5 @@
+    vrSet_Orientation, vrGet_Orientation, vrSet_StandardSize, 
+    vrGet_StandardSize, vrSet_DrawEnds, vrGet_DrawEnds, 
+    vrSet_Mode, vrGet_Mode, vrSet_Move, 
+    vrGet_Move, vrWM_PAINT, vrWM_SIZE, 
+    vrWM_BUTTON1DOWN;

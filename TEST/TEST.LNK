@@ -1,0 +1,8 @@
+PROPS.obj +
+INITTERM.obj +
+SOMINIT.obj +
+UPPER.obj
+TEST.DLL
+TEST.MAP
+vxrexxc.lib som.lib rexx.lib os2386.lib
+..\TEST.DEF

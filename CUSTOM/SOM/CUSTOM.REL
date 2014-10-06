@@ -1,0 +1,2 @@
+    vrRXSet_Distance, vrRXGet_Distance, vrSet_Distance, 
+    vrGet_Distance, vrSave_Distance, vrLoad_Distance;

@@ -1,0 +1,10 @@
+; DEF file for MOUSEBX
+library MOUSEBX initinstance terminstance
+data multiple readwrite preload nonshared
+code loadoncall
+protmode
+exports
+    SOMInitModule
+    SOMUninitModule
+    _VXREXX_CALLER_
+    _MOUSEBX_VERSION_INFO_

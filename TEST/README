@@ -1,0 +1,18 @@
+
+The Test Sample -- Example used in Getting Started
+--------------------------------------------------
+
+This sample implements the VRUpperButton object, which is a subclass of
+the VRPushButton class.  It adds the following event to the PushButton
+object:
+
+         DoubleClick
+
+In addition, it overrides the following property:
+
+         Caption
+
+And intercepts the following window messages:
+
+         WM_BUTTON1DBLCLK
+
